@@ -321,7 +321,3 @@ Resultado ejecutar(CPU *cpu, const Instruccion *in)
     return excepcion(cpu, "instrucción '%s' no implementada (ver src/ejecutar.c)",
                      in->def->nombre);
 }
-
-    return excepcion(cpu, "instrucción '%s' no implementada (ver src/ejecutar.c)",
-                     in->def->nombre);
-}
